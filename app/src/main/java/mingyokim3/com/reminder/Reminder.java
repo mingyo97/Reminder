@@ -3,6 +3,8 @@ package mingyokim3.com.reminder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+//hello
+
 public class Reminder extends AppCompatActivity {
 
     @Override
