@@ -16,9 +16,25 @@
         android:text="Set alarm:"
         android:textSize="50px"/>
     <EditText
+        android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter time"
+        android:text="Enter time (e.g. 8:30)"
         android:textSize="35px"
         android:layout_below="@id/instruction"/>
+    <EditText
+        android:id="@+id/APM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AM or PM"
+        android:layout_below="@id/time"
+        android:textSize="35px"/>
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/APM"
+        android:text="done"
+        android:textSize="35px"
+        android:onClick="done"/>
 </RelativeLayout>
