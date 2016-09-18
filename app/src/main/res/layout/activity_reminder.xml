@@ -10,7 +10,15 @@
     tools:context="mingyokim3.com.reminder.Reminder">
 
     <TextView
+        android:id="@+id/instruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Set alarm:"
+        android:textSize="50px"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter time"
+        android:textSize="35px"
+        android:layout_below="@id/instruction"/>
 </RelativeLayout>
